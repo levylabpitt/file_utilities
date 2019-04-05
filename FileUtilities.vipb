@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-12-15 13:48:01" Modified_Date="2017-10-11 13:21:05" Creator="Patrick Irvin" Comments="" ID="2e9ab9cc3bc421fdcf1862062a977159">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2014-12-15 13:48:01" Modified_Date="2019-04-05 14:00:57" Creator="Patrick Irvin" Comments="" ID="4714a6ad24634589c2827224c2594e9e">
   <Library_General_Settings>
     <Package_File_Name>LevyLab_lib_FileUtilities</Package_File_Name>
-    <Library_Version>1.2.1.8</Library_Version>
+    <Library_Version>1.2.2.9</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>src</Library_Source_Folder>
     <Library_Output_Folder>Q:\utilities\Files</Library_Output_Folder>
@@ -32,7 +32,8 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>Added a global variable to increment file name - should help when directory grows to many files</Release_Notes>
+      <Release_Notes>fix bug with Format number_123.vi
+add length control for *_1234567890.vi</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -88,6 +89,11 @@
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
         <Path/>
       </Project_Provider>
+      <QuickDrop_Plugins>
+        <LLB>false</LLB>
+        <Preserve_Hierarchy>true</Preserve_Hierarchy>
+        <Path/>
+      </QuickDrop_Plugins>
     </Destinations>
     <Source_Files>
       <Destination_Overrides>
@@ -303,7 +309,7 @@
         <Path>src\increment filename.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6DC1D44786E6C8BC1BDCDCFDEE62CD53</GUID>
+      <GUID>FAD87B535141F1FF34A5EF59B3032BAC</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
