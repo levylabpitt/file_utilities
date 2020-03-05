@@ -11,7 +11,8 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="build utilities" Type="Folder">
-			<Item Name="FileUtilities.vipb" Type="Document" URL="../../FileUtilities.vipb"/>
+			<Item Name="FileUtilities.vipb" Type="Document" URL="../../build support/FileUtilities.vipb"/>
+			<Item Name="FileUtilities.vipc" Type="Document" URL="../../build support/FileUtilities.vipc"/>
 		</Item>
 		<Item Name="Ignore Hidden Files.vi" Type="VI" URL="../Ignore Hidden Files.vi"/>
 		<Item Name="Increment Filename.vi" Type="VI" URL="../Increment Filename.vi"/>
