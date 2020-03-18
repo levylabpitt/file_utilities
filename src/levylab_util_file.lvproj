@@ -18,7 +18,7 @@
 			<Item Name="Test Increment Filename.vi" Type="VI" URL="../../tests/Test Increment Filename.vi"/>
 		</Item>
 		<Item Name="Ignore Hidden Files.vi" Type="VI" URL="../Ignore Hidden Files.vi"/>
-		<Item Name="Increment Filename.vi" Type="VI" URL="../Increment Filename.vi"/>
+		<Item Name="Increment Filename changename.vi" Type="VI" URL="../Increment Filename changename.vi"/>
 		<Item Name="Number to String.vi" Type="VI" URL="../Number to String.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
