@@ -14,6 +14,9 @@
 			<Item Name="FileUtilities.vipb" Type="Document" URL="../../build support/FileUtilities.vipb"/>
 			<Item Name="FileUtilities.vipc" Type="Document" URL="../../build support/FileUtilities.vipc"/>
 		</Item>
+		<Item Name="Support" Type="Folder">
+			<Item Name="Is String Number.vi" Type="VI" URL="../Support/Is String Number.vi"/>
+		</Item>
 		<Item Name="tests" Type="Folder">
 			<Item Name="Test Increment Filename.vi" Type="VI" URL="../../tests/Test Increment Filename.vi"/>
 		</Item>
