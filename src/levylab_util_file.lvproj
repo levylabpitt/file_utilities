@@ -1,6 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="16008000">
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -14,11 +15,11 @@
 			<Item Name="FileUtilities.vipb" Type="Document" URL="../../build support/FileUtilities.vipb"/>
 			<Item Name="FileUtilities.vipc" Type="Document" URL="../../build support/FileUtilities.vipc"/>
 		</Item>
-		<Item Name="Support" Type="Folder">
-			<Item Name="Is String Number.vi" Type="VI" URL="../Support/Is String Number.vi"/>
-		</Item>
 		<Item Name="tests" Type="Folder">
 			<Item Name="Test Increment Filename.vi" Type="VI" URL="../../tests/Test Increment Filename.vi"/>
+		</Item>
+		<Item Name="Support" Type="Folder">
+			<Item Name="Is String Number.vi" Type="VI" URL="../Support/Is String Number.vi"/>
 		</Item>
 		<Item Name="Ignore Hidden Files.vi" Type="VI" URL="../Ignore Hidden Files.vi"/>
 		<Item Name="Increment Filename.vi" Type="VI" URL="../Increment Filename.vi"/>
